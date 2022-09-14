@@ -30,7 +30,7 @@
 }
 
 .section_content {
-  position: absolute;
+  position: relative;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
@@ -67,9 +67,10 @@
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .section_action_btn {
